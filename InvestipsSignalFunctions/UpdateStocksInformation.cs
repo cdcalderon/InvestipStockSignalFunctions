@@ -10,7 +10,7 @@ namespace InvestipsSignalFunctions
     public static class UpdateStocksInformation
     {
         [FunctionName("UpdateStocksInformation")]
-        public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, TraceWriter log)
+        public static void Run([TimerTrigger("0 30 9 * * *")]TimerInfo myTimer, TraceWriter log)
         {
             log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 
