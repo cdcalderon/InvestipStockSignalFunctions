@@ -6,6 +6,7 @@
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.2.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.14" />
+    <PackageReference Include="Net.Code.Csv" Version="3.0.18" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />

@@ -10,5 +10,6 @@ namespace InvestipsSignalFunctions.Models
     public class SignalContext : DbContext
     {
         public virtual DbSet<Signal> Signals { get; set; }
+        public virtual DbSet<StockSecurity> StockSecurities { get; set; }
     }
 }
